@@ -9,8 +9,8 @@ function Footer() {
       <div className=' relative border-b py-10 px-5 border-zinc-600 flex justify-between items-center'>
         <img className='h-20' src="https://www.gonukkad.com/seller-support/images/logo.webp" />
         <div className="social flex text-2xl pr-5 gap-2">
-          <div className="inst  hover:scale-[1.2] hover:text-blue-500 transition-all cursor-pointer"><i class="ri-instagram-line"></i></div>
-          <div className="facebook  hover:scale-[1.2] hover:text-blue-500 transition-all cursor-pointer"><i class="ri-facebook-fill"></i></div>
+          <div className="inst  hover:scale-[1.2] hover:text-blue-500 transition-all cursor-pointer"><a href="https://www.instagram.com/gonukkadcom/?hl=en"><i class="ri-instagram-line"></i></a></div>
+          <div className="facebook  hover:scale-[1.2] hover:text-blue-500 transition-all cursor-pointer"><a href="https://www.facebook.com/gonukkadcom"><i class="ri-facebook-fill"></i></a></div>
         </div>
       </div>
       <div className='relative flex flex-wrap footer pb-10'>

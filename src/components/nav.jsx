@@ -10,7 +10,7 @@ function Nav() {
                <li><Link to="/">Home</Link></li>
                <li><Link to="About">About</Link></li>
                <li><Link to="Our-Services">Our Services</Link></li>
-               <li><Link to="Business-Verification">Business Verification</Link></li>
+               <li><Link to="Verification">Business Verification</Link></li>
                <li><Link to="Blogs">Blogs</Link></li>
           </ul>
           <p className='px-4 py-2 hover:bg-[#01335E] font-semibold bg-[#195180] hover:text-zinc-200 rounded-lg'><Link to="contact">Contact</Link></p>

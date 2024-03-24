@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -8,6 +8,8 @@ import BusinessVerification from './routs/Business-Verification.jsx';
 import Blogs from './routs/Blogs.jsx';
 import OurServices from './routs/Our-Services.jsx';
 import Contact from './routs/contact.jsx';
+import Featurs from './featurs.jsx';
+import Nomatch from './components/nomatch.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,15 +17,31 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "Business-Verification",
+    path: "Verification",
     element: <BusinessVerification/>,
+  },
+  {
+    path: "about/Verification",
+    element: <BusinessVerification/>,
+  },
+  {
+    path: "about/Verification",
+    element: <About />,
   },
   {
     path: "about",
     element: <About />,
   },
   {
+    path: "Verification/About",
+    element: <About />,
+  },
+  {
     path: "Blogs",
+    element: <Blogs />,
+  },
+  {
+    path: "Verification/Blogs",
     element: <Blogs />,
   },
   {
@@ -33,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: "Contact",
     element: <Contact />,
+  },
+  {
+    path: "*",
+    element: <Nomatch />,
   },
 ]);
 
