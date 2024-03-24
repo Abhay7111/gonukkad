@@ -17,10 +17,10 @@ function Footer() {
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3 flex justify-center'>
         <h2>Important Pages</h2>
         <ul>
-          <li><Link to="about">About Us</Link></li>
-          <li><a href="#">Payment</a></li>
-          <li><Link to="contact">Contact Us</Link></li>
-          <li><Link to="about">Our Story</Link></li>
+          <li><Link to="../about">About Us</Link></li>
+          <li><a href="../#">Payment</a></li>
+          <li><Link to="../contact">Contact Us</Link></li>
+          <li><Link to="../about">Our Story</Link></li>
         </ul>
       </div>
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
