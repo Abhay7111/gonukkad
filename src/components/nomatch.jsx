@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Nomatch() {
   return (
@@ -21,7 +22,7 @@ function Nomatch() {
 		
 		<p className='text-lg'>the page you are looking for not avaible!</p>
 		
-		<a href="./" className="link_404 font-semibold">Go back</a>
+		<Link to="../" className="link_404 font-semibold rounded-lg hover:bg-green-600">Go Home</Link>
 	</div>
 		</div>
 		</div>
