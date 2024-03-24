@@ -26,66 +26,66 @@ function Footer() {
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
       <h2>Blogs</h2>
         <ul>
-          <li> How To Sell On Amazon In India</li>
-          <li> How To Sell On Flipkart In India</li>
-          <li> How To Sell On Meesho In India</li>
-          <li> How to Sell On Alibaba In India</li>
-          <li> How To Sell On JioMart In India</li>
-          <li> How To Sell On eBay</li>
-          <li> How To Sell On Myntra In India</li>
-          <li> How To Sell On Nykaa In India</li>
-          <li> How To Sell On Etsy</li>
+          <Link to="../error"><li> How To Sell On Amazon In India</li></Link>
+          <Link to="../error"><li> How To Sell On Flipkart In India</li></Link>
+          <Link to="../error"><li> How To Sell On Meesho In India</li></Link>
+          <Link to="../error"><li> How to Sell On Alibaba In India</li></Link>
+          <Link to="../error"><li> How To Sell On JioMart In India</li></Link>
+          <Link to="../error"><li> How To Sell On eBay</li></Link>
+          <Link to="../error"><li> How To Sell On Myntra In India</li></Link>
+          <Link to="../error"><li> How To Sell On Nykaa In India</li></Link>
+          <Link to="../error"><li> How To Sell On Etsy</li></Link>
         </ul>
       </div>
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
       <h2>Advertising Services</h2>
         <ul>
-          <li>  Amazon Advertising Services</li>
-          <li>  Flipkart Advertising Services</li>
-          <li> Meesho Advertising Services</li>
-          <li> JioMart Advertising Services</li>
-          <li> eBay Advertising Services</li>
-          <li> Amazon - Brand Store</li>
-          <li> Amazon - A+ Listing</li>
+          <Link to="../error"><li>  Amazon Advertising Services</li></Link>
+          <Link to="../error"><li>  Flipkart Advertising Services</li></Link>
+          <Link to="../error"><li> Meesho Advertising Services</li></Link>
+          <Link to="../error"><li> JioMart Advertising Services</li></Link>
+          <Link to="../error"><li> eBay Advertising Services</li></Link>
+          <Link to="../error"><li> Amazon - Brand Store</li></Link>
+          <Link to="../error"><li> Amazon - A+ Listing</li></Link>
         </ul>
       </div>
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
       <h2>Seller Registrations</h2>
         <ul>
-          <li> Amazon Seller Registration</li>
-          <li> Flipkart Seller Registration</li>
-          <li> Meesho Seller Registration</li>
-          <li> JioMart Seller Registration</li>
-          <li> eBay Seller Registration</li>
-          <li> Myntra Seller Registration</li>
-          <li> Nykaa Seller Registration</li>
-          <li> Etsy Seller Registration</li>
+          <Link to="../error"><li> Amazon Seller Registration</li></Link>
+          <Link to="../error"><li> Flipkart Seller Registration</li></Link>
+          <Link to="../error"><li> Meesho Seller Registration</li></Link>
+          <Link to="../error"><li> JioMart Seller Registration</li></Link>
+          <Link to="../error"><li> eBay Seller Registration</li></Link>
+          <Link to="../error"><li> Myntra Seller Registration</li></Link>
+          <Link to="../error"><li> Nykaa Seller Registration</li></Link>
+          <Link to="../error"><li> Etsy Seller Registration</li></Link>
         </ul>
       </div>
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
       <h2>Listing & Cataloging Services</h2>
         <ul>
-          <li> Amazon Listing & Cataloging Services</li>
-          <li> Flipkart Listing & Cataloging Services</li>
-          <li> Meesho Listing & Cataloging Services</li>
-          <li> JioMart Listing & Cataloging Services</li>
-          <li> eBay Listing & Cataloging Services</li>
-          <li> Myntra Listing & Cataloging Services</li>
-          <li> Nykaa Listing & Cataloging Services</li>
-          <li> Etsy Listing & Cataloging Services</li>
+          <Link to="../error"><li> Amazon Listing & Cataloging Services</li></Link>
+          <Link to="../error"><li> Flipkart Listing & Cataloging Services</li></Link>
+          <Link to="../error"><li> Meesho Listing & Cataloging Services</li></Link>
+          <Link to="../error"><li> JioMart Listing & Cataloging Services</li></Link>
+          <Link to="../error"><li> eBay Listing & Cataloging Services</li></Link>
+          <Link to="../error"><li> Myntra Listing & Cataloging Services</li></Link>
+          <Link to="../error"><li> Nykaa Listing & Cataloging Services</li></Link>
+          <Link to="../error"><li> Etsy Listing & Cataloging Services</li></Link>
         </ul>
       </div>
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
       <h2>Full Account Management Services</h2>
         <ul>
-          <li> Amazon Account Management Services</li>
-          <li> Flipkart Account Management Services</li>
-          <li> Meesho Account Management Services</li>
-          <li> JioMart Account Management Services</li>
-          <li> eBay Account Management Services</li>
-          <li> Myntra Account Management Services</li>
-          <li> Nykaa Account Management Services</li>
-          <li> Etsy Account Management Services</li>
+          <Link to="../error"><li> Amazon Account Management Services</li></Link>
+          <Link to="../error"><li> Flipkart Account Management Services</li></Link>
+          <Link to="../error"><li> Meesho Account Management Services</li></Link>
+          <Link to="../error"><li> JioMart Account Management Services</li></Link>
+          <Link to="../error"><li> eBay Account Management Services</li></Link>
+          <Link to="../error"><li> Myntra Account Management Services</li></Link>
+          <Link to="../error"><li> Nykaa Account Management Services</li></Link>
+          <Link to="../error"><li> Etsy Account Management Services</li></Link>
         </ul>
       </div>
     </div>

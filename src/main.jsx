@@ -10,6 +10,7 @@ import OurServices from './routs/Our-Services.jsx';
 import Contact from './routs/contact.jsx';
 import Featurs from './featurs.jsx';
 import Nomatch from './components/nomatch.jsx';
+import Soon from './components/soon.jsx';
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
   {
     path: "*",
     element: <Nomatch />,
+  },
+  {
+    path:"error",
+    element:<Soon/>,
   },
 ]);
 
