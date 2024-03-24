@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div>
      <Nav/>
-     <div className='h-screen py-20 flex justify-center items-center'>
+     <div className='h-screen py-20 flex justify-center items-center '>
       <Img/>
         <div className='flex items-center justify-center'>
           <form action="userdata" method="get" className='w-[85%] flex flex-col px-20 items-center bg-[#d6d3eb] h-fit py-16 rounded-3xl'>
