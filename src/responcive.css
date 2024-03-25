@@ -116,4 +116,42 @@
      .aboutseller{
           padding: 0 12px;
      }
+     .veriheading{
+          font-weight: 700;
+          margin-top: 5vh;
+     }
+
+     .veribody{
+          height: 150vh;
+     }
+     .veribtn{
+          width: 40px;
+          height: 40px;
+     }
+     .veridispl{
+          position: relative;
+          height: 30vh;
+     }
+     .veridispl h1{
+          font-weight: 700;
+     }
+     .verybtntext{
+          font-size: 0.83rem;
+     }
+     .verybtnwdth{
+          width: 90%;
+     }
+     .verifaqsparent{
+          display: flex;
+          flex-direction: column-reverse;
+     }
+     .veryfaqsimg{
+          margin-bottom: 5vh;
+     }
+
+     /* Footer responcive */
+
+     .footerimg{
+          height:8vh;
+     }
    }
