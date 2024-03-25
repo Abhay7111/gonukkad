@@ -137,3 +137,7 @@
     opacity: 1;
   }
 }
+
+.bggradiyant{
+  background: repeating-radial-gradient(#CDD0ED, #F0F2FF);
+}

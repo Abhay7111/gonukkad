@@ -21,6 +21,8 @@ function Featurs() {
           const span4 = document.querySelector(".span4");
           const span5 = document.querySelector(".span5");
 
+          
+
           btn_1.addEventListener("click", (e)=>{
                cont_1.style.display = "block"
                cont_2.style.display = "none"
@@ -131,6 +133,9 @@ function Featurs() {
                btn_1.style.backgroundColor = "#ffffff"
                btn_1.style.color = "#121212"
           })
+
+
+
      })
 }
 

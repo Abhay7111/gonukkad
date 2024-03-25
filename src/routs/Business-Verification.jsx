@@ -8,8 +8,7 @@ function BusinessVerification() {
   return (
     <div>
      <Nav/>
-     <Img/>
-     <div className='w-full flex flex-col items-center h-fit bg-[#DCF0FF]'>
+     <div className='w-full flex flex-col items-center h-fit bggradiyant'>
       <Img/>
         <h1 className='w-full text-center text-5xl pt-20 font-semibold '>Know our verification process</h1>
         <p className='w-[80%] mt-10 font-medium tracking-wide'>At Gonukkad, we take utmost care to ensure that all information is thoroughly checked and kept up-to-date before proceeding with the verification process. Our commitment to accuracy and precision guarantees that only reliable and current data is used during the verification process. Rest assured, your information is in safe hands, and we prioritize maintaining the highest standards of quality and security throughout the verification procedure.</p>
@@ -58,7 +57,7 @@ function BusinessVerification() {
           </div>
         </div>
      </div>
-     <div className='flex py-20'>
+     <div data-aos="fade-in" className='flex py-20'>
         <div className='w-[60%] pl-10'>
           <h1 className='font-semibold mb-2 text-3xl ml-11'>FAQs</h1>
           <div className='flex flex-col gap-5 pl-10 h-[100%]'>

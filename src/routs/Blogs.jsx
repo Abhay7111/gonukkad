@@ -1,10 +1,41 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Nav from '../components/nav'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 import Img from '../components/img'
 
 function Blogs() {
+  const [apis, setAPIs] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetchAPIs();
+  }, []);
+
+  const fetchAPIs = async () => {
+    try {
+      const response = await fetch('https://api.publicapis.org/entries');
+      if (!response.ok) {
+        throw new Error('Failed to fetch data');
+      }
+      const data = await response.json();
+      setAPIs(data.entries);
+    } catch (error) {
+      setError(error.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
   return (
     <div>
      <Nav/>
@@ -23,6 +54,18 @@ function Blogs() {
           </div>
         </div>
      </div>
+     {/* <div className='flex gap-8 flex-col'>
+      <h1>Public APIs Directory</h1>
+      {apis.map(api => (
+        <div key={api.API}>
+          <h2>{api.API}</h2>
+          <p>Description: {api.Description}</p>
+          <p>Category: {api.Category}</p>
+          <p>Auth: {api.Auth}</p>
+          <p>HTTPS: {api.HTTPS ? 'Yes' : 'No'}</p>
+        </div>
+      ))}
+    </div> */}
      <Footer/>
      </div>
   )

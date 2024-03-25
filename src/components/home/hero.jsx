@@ -82,7 +82,7 @@ function Hero() {
                </div>
           </div>
      </div>
-     <div className='relative flex items-center px-10 mt-20 gap-5 justify-around'>
+     <div data-aos="fade-in" className='relative flex items-center px-10 mt-20 gap-5 justify-around'>
           <div className=' w-1/2 max-h-[80vh]'>
                <img src="https://www.gonukkad.com/wp-content/themes/myvgolocal/home-page-tailwind/assets/small-business-DK-GUXQY.webp" />
           </div>
