@@ -87,4 +87,33 @@
      .footerheading{
           font-size: 1.6rem;
      }
+     .aboutmainheading{
+          margin-bottom: 6vh;
+     }
+     .aboutcard{
+          display: flex;
+          flex-direction: column;
+     }
+     .aboutcardbottom{
+          margin-top: 50px;
+     }
+     .aboutchoosingcard{
+          border: 0;
+     }
+     .aboutchoosingcard2, 
+     .aboutchoosingcard3 {
+          border-top: 1px solid rgba(31, 31, 31, 0.89);
+          margin: 2vh 0;
+     }
+     .aboutjurneyheading{
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-bottom: 4vh;
+     }
+     .aboutjurneyparent{
+          padding: 0 17px ;
+     }
+     .aboutseller{
+          padding: 0 12px;
+     }
    }
