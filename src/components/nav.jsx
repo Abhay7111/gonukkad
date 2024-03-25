@@ -13,16 +13,17 @@ function Nav() {
     const menu = document.querySelector(".menu");
     const menuclose = document.querySelector(".menuclose");
     const responcemenu = document.querySelector(".responcemenu");
+    const responcemenuparent = document.querySelector(".responcemenuparent");
 
     menu.addEventListener("click", (e) => {
-      responcemenu.style.display = "block";
+      responcemenuparent.style.display = "block";
       menu.style.display = "none";
       menuclose.style.display = "block";
     });
     menuclose.addEventListener("click", (e)=>{
       menuclose.style.display = "none";
       menu.style.display = "block";
-      responcemenu.style.display = "none";
+      responcemenuparent.style.display = "none";
     })
 
     verificationbtn.addEventListener("mousemove", (e)=>{
@@ -46,7 +47,7 @@ function Nav() {
           className="sm:h-16 navlogo"
         />
       </div>
-      <div>
+      <div className="responcemenuparent">
       <div className="flex responcemenu gap-10 items-center">
         <ul className="responcemenuul sm:flex sm:gap-8 font-medium">
           <li>

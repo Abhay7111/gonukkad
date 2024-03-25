@@ -5,9 +5,7 @@
      }
      .responcemenu{
        position: absolute;
-       top: 100%;
-       height: 100vh;
-       background-color: red;
+       color: white;
        display: flex;
        flex-direction: column;
        width: 100%;
@@ -17,11 +15,12 @@
           display: none;
      }
      .responcemenuul{
+          margin-top: 5vh;
           display: flex;
           flex-direction: column;
           align-items: center;
-          gap: 1px;
-          font-size: 1.3rem;
+          gap: 7px;
+          font-size: 1.5rem;
      }
      .contactbtn{
           width: fit-content;
@@ -30,11 +29,62 @@
        font-size: 1.6rem;
      }
      .navlogo{
-       height: 4vh;
+       width: 25vw;
      }
      .contactbtnparent{
           width: 100%;
-          margin-top: 10vh;
+          margin-top: 3vh;
 
+     }
+     .responcemenuparent{
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0%;
+          height: 100vh;
+          width: 100vw;
+          backdrop-filter: blur(10px);
+          background-color: rgba(0, 0, 0, 0.521);
+     }
+
+     /* Hero page responcive here */
+
+     .heroheading{
+          padding: 0 15px;
+          font-size: 3rem;
+          line-height: 47px;
+          margin-bottom: 2vh;
+     }
+     .heroimage{
+          margin-top: 6vh;
+     }
+     .herocmpnylogo{
+          padding:0 15px ;
+          overflow-x: scroll;
+     }
+     .googleimage{
+          top: -4vh;
+          left: -4vw;
+     }
+     .graphimage{
+          top: 27vh;
+          right: 2vw;
+     }
+     .serviceinhero{
+          margin-top: 6vh;
+     }
+     .serviceinhero h1{
+          font-size: 2.4rem;
+          font-weight: 700;
+     }
+     .servicecomponent{
+          display: flex;
+          flex-direction: column-reverse;
+     }
+     .servicecomponentimg{
+          padding: 0 25px;
+     }
+     .footerheading{
+          font-size: 1.6rem;
      }
    }

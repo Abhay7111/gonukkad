@@ -14,8 +14,8 @@ function Footer() {
         </div>
       </div>
       <div className='relative flex flex-wrap footer pb-10'>
-      <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3 flex justify-center'>
-        <h2>Important Pages</h2>
+      <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 sm:ml-3 flex justify-center'>
+        <h2 className='footerheading sm:text-3xl mb-2 sm:text-nowrap'>Important Pages</h2>
         <ul>
           <li><Link to="../about">About Us</Link></li>
           <li><a href="../#">Payment</a></li>
@@ -24,7 +24,7 @@ function Footer() {
         </ul>
       </div>
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
-      <h2>Blogs</h2>
+      <h2 className='footerheading sm:text-3xl mb-2'>Blogs</h2>
         <ul>
           <Link to="../error"><li> How To Sell On Amazon In India</li></Link>
           <Link to="../error"><li> How To Sell On Flipkart In India</li></Link>
@@ -38,7 +38,7 @@ function Footer() {
         </ul>
       </div>
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
-      <h2>Advertising Services</h2>
+      <h2 className='footerheading sm:text-3xl mb-2'>Advertising Services</h2>
         <ul>
           <Link to="../error"><li>  Amazon Advertising Services</li></Link>
           <Link to="../error"><li>  Flipkart Advertising Services</li></Link>
@@ -50,7 +50,7 @@ function Footer() {
         </ul>
       </div>
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
-      <h2>Seller Registrations</h2>
+      <h2 className='footerheading sm:text-3xl mb-2'>Seller Registrations</h2>
         <ul>
           <Link to="../error"><li> Amazon Seller Registration</li></Link>
           <Link to="../error"><li> Flipkart Seller Registration</li></Link>
@@ -63,7 +63,7 @@ function Footer() {
         </ul>
       </div>
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
-      <h2>Listing & Cataloging Services</h2>
+      <h2 className='footerheading sm:text-3xl mb-2'>Listing & Cataloging Services</h2>
         <ul>
           <Link to="../error"><li> Amazon Listing & Cataloging Services</li></Link>
           <Link to="../error"><li> Flipkart Listing & Cataloging Services</li></Link>
@@ -76,7 +76,7 @@ function Footer() {
         </ul>
       </div>
       <div className='min-w-1/4 flex-col items-center min-h-10 px-7 mt-10 ml-3'>
-      <h2>Full Account Management Services</h2>
+      <h2 className='footerheading sm:text-3xl mb-2'>Full Account Management Services</h2>
         <ul>
           <Link to="../error"><li> Amazon Account Management Services</li></Link>
           <Link to="../error"><li> Flipkart Account Management Services</li></Link>
