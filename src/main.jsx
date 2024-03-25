@@ -11,7 +11,6 @@ import Contact from './routs/contact.jsx';
 import Featurs from './featurs.jsx';
 import Nomatch from './components/nomatch.jsx';
 import Soon from './components/soon.jsx';
-import Backtotop from './components/backtotop.jsx';
 
 
 const router = createBrowserRouter([
