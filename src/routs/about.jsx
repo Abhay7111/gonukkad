@@ -33,7 +33,7 @@ function About() {
      <div className=' flex items-center flex-col relative bg-[#e6f4ff] pt-16 pb-20'>
         <h1 className='text-4xl font-semibold mb-4'>Why should you choose Gonukkad?</h1>
         <div className='w-20 h-1 bg-red-400'></div>
-        <div className='w-[70vw] rounded-3xl h-72 bg-violet-200 py-8 px-4 mt-10 sm:flex items-start justify-center'>
+        <div className='w-[70vw] rounded-3xl sm:h-72 bg-violet-200 py-8 px-4 mt-10 sm:flex items-start justify-center'>
           <div className='w-1/3 px-2 py-3'>
             <div className='flex items-center gap-3 font-medium'>
             <img src="https://www.gonukkad.com/wp-content/themes/myvgolocal/all-pages/images/scale.png" />
