@@ -122,7 +122,11 @@
      }
 
      .veribody{
-          height: 150vh;
+          height: auto;
+     }
+     .veribtncont{
+          height: 200px;
+          /* background-color: red; */
      }
      .veribtn{
           width: 40px;
@@ -130,7 +134,10 @@
      }
      .veridispl{
           position: relative;
-          height: 30vh;
+          height: 220px;
+          margin-top: 4vh;
+          margin-bottom: 2vh;
+          /* background-color: red; */
      }
      .veridispl h1{
           font-weight: 700;
@@ -214,5 +221,16 @@
      }
      .contcardimg{
           height: 4vh;
+     }
+
+     /* Blog page responcive */
+
+     .bolgpgfrstdv{
+          padding: 3vh;
+     }
+
+     .blogpgcont{
+          display: flex;
+          flex-direction: column-reverse;
      }
    }
