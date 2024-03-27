@@ -5,7 +5,7 @@ function OurServices() {
   return (
     <div>
      <Nav/>
-     OurServices</div>
+     Commingsoon</div>
   )
 }
 

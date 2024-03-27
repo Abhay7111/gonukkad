@@ -10,13 +10,13 @@ function Contact() {
      <div className='h-auto sm:py-20 sm:flex justify-center items-center'>
       <Img/>
         <div className='flex items-center contform justify-center'>
-          <form action="userdata" method="get" className='w-[85%] flex flex-col sm:px-20 items-center bg-[#d6d3eb] h-fit py-16 rounded-3xl'>
+          <form action="https://formspree.io/f/mleqpgqa" method="POST" className='w-[85%] flex flex-col sm:px-20 items-center bg-[#d6d3eb] h-fit py-16 rounded-3xl'>
           <h1 className='text-2xl font-medium'>Contact Us Now</h1>
           <div className='border-b w-full mt-3 border-zinc-600'></div>
-          <input type="text" name="name" id="name" required className=' mt-5 w-full px-2 py-1 rounded-lg outline-dotted outline-1' placeholder='Name' />
-          <input type="email" name="email" id="email" required className=' mt-5 w-full px-2 py-1 rounded-lg outline-dotted outline-1' placeholder='Email' />
+          <input  type="name" name="name" id="name" required className=' mt-5 w-full px-2 py-1 rounded-lg outline-dotted outline-1' placeholder='Name'  autoComplete='off'/>
+          <input  type="email" name="email" id="email" required className=' mt-5 w-full px-2 py-1 rounded-lg outline-dotted outline-1' placeholder='Email'  autoComplete='off'/>
           <textarea name="text" id="massage" cols="70" rows="3" required className=' mt-5 w-full px-2 py-1 rounded-sm outline-dotted outline-1' placeholder='Write your massage . . .'></textarea>
-          <button type="submit" className='bg-[#8879E9] mt-6 px-9 py-2 text-xl rounded-lg'>Send</button>
+          <button type="submit" name='message' className='bg-[#8879E9] mt-6 px-9 py-2 text-xl rounded-lg'>Send</button>
           </form>
         </div>
         <div className='sm:w-1/3 contdetails h-fit'>
