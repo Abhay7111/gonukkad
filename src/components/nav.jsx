@@ -42,8 +42,11 @@ function Nav() {
   return (
     <div className="top nav z-50 relative w-[100vw] sm:min-h-[10vh] py-3 border-b sm:bg-white border-zinc-600 flex items-center justify-between px-8">
       <div>
+{/*   ====================================================================================
+                                THIS IS LOGO OF NAV
+=======================================================================================  */}
         <img
-          src="../../public/BIZ GROWTH LOGO.png"
+          src="https://raw.githubusercontent.com/Abhay7111/gonukkad/main/public/BIZ%20GROWTH%20LOGO.png"
           className="sm:h-16 navlogo"
         />
       </div>
