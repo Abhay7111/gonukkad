@@ -43,7 +43,7 @@ function Nav() {
     <div className="top nav z-50 relative w-[100vw] sm:min-h-[10vh] py-3 border-b sm:bg-white border-zinc-600 flex items-center justify-between px-8">
       <div>
         <img
-          src="https://www.gonukkad.com/wp-content/themes/myvgolocal/home-page-tailwind/assets/logo-DLkhn1q1.webp"
+          src="../../public/BIZ GROWTH LOGO.png"
           className="sm:h-16 navlogo"
         />
       </div>
@@ -67,7 +67,7 @@ function Nav() {
           </li>
         </ul>
         <p className="contactbtnparent items-center flex justify-center">
-          <Link className="px-4 py-2 hover:bg-[#01335E] font-semibold bg-[#195180] hover:text-zinc-200 rounded-lg contactbtn" to="../contact">Contact</Link>
+          <Link className="px-4 py-2 hover:bg-[#01335E] font-semibold bg-[#195180] text-zinc-200 hover:text-zinc-white rounded-lg contactbtn" to="../contact">Contact</Link>
         </p>
         <div className=" transition-all absolute top-[30vh] left-[12%] navunderdv hidden">
           <Navunder />

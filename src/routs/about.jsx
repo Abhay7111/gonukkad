@@ -9,7 +9,7 @@ function About() {
      <div className='relative z-50 bg-white'><Nav/></div>
      <div className='sm:flex relative z-20 bg-white items-center justify-around py-10 gap-10'>
       <h1 className='text-7xl text-center aboutmainheading font-bold'>This is <br />Our Story</h1>
-      <p className='sm:w-1/2 font-medium px-10'>Gonukkad, founded in Gurgaon, has emerged as the city's premier account management agency, specializing in eCommerce intelligence, sales optimization, and marketplace management. <br /> <br /> Through our experience of selling in numerous categories on Marketplaces such as Amazon, Flipkart and Meesho we have encountered a multitude of challenges and obstacles. Consequently, we have gained knowledge on how to rank quickly and inexpensively, obtain positive reviews that comply with Marketplace's TOS, reactivate listings that have been taken down due to competitor tactics, create optimized listings and images, and restore suspended accounts.</p>
+      <p className='sm:w-1/2 font-medium px-10'>BIZ GROWTH, founded in Gurgaon, has emerged as the city's premier account management agency, specializing in eCommerce intelligence, sales optimization, and marketplace management. <br /> <br /> Through our experience of selling in numerous categories on Marketplaces such as Amazon, Flipkart and Meesho we have encountered a multitude of challenges and obstacles. Consequently, we have gained knowledge on how to rank quickly and inexpensively, obtain positive reviews that comply with Marketplace's TOS, reactivate listings that have been taken down due to competitor tactics, create optimized listings and images, and restore suspended accounts.</p>
      </div>
      <div className='w-full flex items-center justify-center h-[70vh] relative overflow-hidden'>
       <img src="https://www.gonukkad.com/wp-content/uploads/2023/05/business-team-gives-presentation-new-financial-project-business-partners-company.jpg" className=' fixed top-0 left-0 w-full object-cover h-full object-top z-0' />
@@ -83,7 +83,7 @@ function About() {
       <div className='w-[95%] min-h-32 rounded-3xl bg-[#1a1a1f] sm:py-10'>
       <Img/> 
         <div className='mt-20 '>
-          <h1 className='text-zinc-100 aboutseller text-5xl font-semibold w-full text-center'>Why you should Gonukkad for seller support services?</h1>
+          <h1 className='text-zinc-100 aboutseller text-5xl font-semibold w-full text-center'>Why you should BIZ GROWTH for seller support services?</h1>
         </div>
         <div className='sm:flex flex-wrap text-zinc-300 px-7 gap-8 mt-10 justify-around'>
           <div className='sm:w-[43%] p-5 min-h-20 rounded-xl'>
@@ -91,14 +91,14 @@ function About() {
             <img className='h-7 bg-white p-[2px] rounded-full' src="https://www.gonukkad.com/wp-content/themes/myvgolocal/all-pages/images/central-account.webp" />
             <h1 className='text-[1.1rem]'>Knowledge and Experience</h1>
             </div>
-            <p className='mt-3 leading-5 sm:pr-12'>Choose Gonukkad for seller support services and benefit from our team's extensive knowledge and experience in the e-commerce industry. Our experts understand the intricacies of online selling platforms and can provide tailored solutions to meet your specific needs.</p>
+            <p className='mt-3 leading-5 sm:pr-12'>Choose BIZ GROWTH for seller support services and benefit from our team's extensive knowledge and experience in the e-commerce industry. Our experts understand the intricacies of online selling platforms and can provide tailored solutions to meet your specific needs.</p>
           </div>
           <div className='sm:w-[43%] p-5 min-h-20 rounded-xl'>
             <div className='flex gap-3 font-medium'>
             <img className='h-7 bg-white p-[2px] rounded-full' src="https://www.gonukkad.com/wp-content/themes/myvgolocal/all-pages/images/listing-optimization.webp" />
             <h1 className='text-[1.1rem]'>Multichannel Support</h1>
             </div>
-            <p className='mt-3 leading-5 sm:pr-12'>Gonukkad offers comprehensive multichannel support to ensure your success across various platforms. Whether you're selling on Amazon, eBay, Flipkart, or other major marketplaces, our services cover a wide range of platforms to help you maximize your sales potential.</p>
+            <p className='mt-3 leading-5 sm:pr-12'>BIZ GROWTH offers comprehensive multichannel support to ensure your success across various platforms. Whether you're selling on Amazon, eBay, Flipkart, or other major marketplaces, our services cover a wide range of platforms to help you maximize your sales potential.</p>
           </div>
           <div className='sm:w-[43%] p-5 min-h-20 rounded-xl'>
             <div className='flex gap-3 font-medium'>
@@ -112,7 +112,7 @@ function About() {
             <img className='h-7 bg-white p-[2px] rounded-full' src="https://www.gonukkad.com/wp-content/themes/myvgolocal/all-pages/images/brand-content.webp" />
             <h1 className='text-[1.1rem]'>Sales Optimization</h1>
             </div>
-            <p className='mt-3 leading-5 sm:pr-12'>With Gonukkad's seller support services, you can tap into our expertise in sales optimization strategies. We can help you identify opportunities to boost your sales, optimize your pricing strategy, and implement effective marketing campaigns to drive traffic and conversions.</p>
+            <p className='mt-3 leading-5 sm:pr-12'>With BIZ GROWTH's seller support services, you can tap into our expertise in sales optimization strategies. We can help you identify opportunities to boost your sales, optimize your pricing strategy, and implement effective marketing campaigns to drive traffic and conversions.</p>
           </div>
           <div className='sm:w-[43%] p-5 min-h-20 rounded-xl'>
             <div className='flex gap-3 font-medium'>
@@ -126,7 +126,7 @@ function About() {
             <img className='h-7 bg-white p-[2px] rounded-full' src="https://www.gonukkad.com/wp-content/themes/myvgolocal/all-pages/images/brand-reg.webp" />
             <h1 className='text-[1.1rem]'>Excellent Seller Support</h1>
             </div>
-            <p className='mt-3 leading-5 sm:pr-12'>At Gonukkad, we prioritize excellent Seller Support. Our seller support team is readily available to address your queries, resolve issues, and provide guidance throughout your selling journey. We are committed to ensuring your satisfaction and success as a seller.</p>
+            <p className='mt-3 leading-5 sm:pr-12'>At BIZ GROWTH, we prioritize excellent Seller Support. Our seller support team is readily available to address your queries, resolve issues, and provide guidance throughout your selling journey. We are committed to ensuring your satisfaction and success as a seller.</p>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ function Footer() {
     <div className='bg-white relative overflow-hidden'>
       <Img/>
       <div className=' relative border-b py-10 px-5 border-zinc-600 flex justify-between items-center'>
-        <img className='sm:h-20 footerimg' src="https://www.gonukkad.com/seller-support/images/logo.webp" />
+        <img className='sm:h-20 footerimg navlogo ml-4' src="../../public/BIZ GROWTH LOGO.png" />
         <div className="social flex text-2xl pr-5 gap-2">
           <div className="inst  hover:scale-[1.2] hover:text-blue-500 transition-all cursor-pointer"><a href="https://www.instagram.com/gonukkadcom/?hl=en"><i class="ri-instagram-line"></i></a></div>
           <div className="facebook  hover:scale-[1.2] hover:text-blue-500 transition-all cursor-pointer"><a href="https://www.facebook.com/gonukkadcom"><i class="ri-facebook-fill"></i></a></div>

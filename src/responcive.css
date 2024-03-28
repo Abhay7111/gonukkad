@@ -233,4 +233,9 @@
           display: flex;
           flex-direction: column-reverse;
      }
+     .navlogo{
+          height: 100%;
+          width: 9vw;
+          object-fit: cover;
+     }
    }

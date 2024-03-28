@@ -8,6 +8,15 @@
      position: relative;
 }
 
+/* ==========================
+   THIS IS FOR NAV LOGO
+=============================*/
+
+.navlogo{
+  filter: brightness(0);
+  scale: 2;
+}
+
 ::-webkit-scrollbar {
      display: none;
 }

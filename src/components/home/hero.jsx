@@ -61,7 +61,7 @@ function Hero() {
           <div className='sm:w-1/2 sm:pl-7 pt-20 flex flex-col justify-center'>
                <h1 className='w-full heroheading sm:text-7xl relative font-semibold'><span className='text-[1rem] absolute bottom-full'>Get Everything</span> You Need to <span className='text-[#01335E]'>Manage & Grow</span> Your <span className=''>Restaurant</span></h1>
                <p className='sm:mt-10 font-medium px-3'>Your digital growth accelerator is the Prachar Expert. For a strong online presence, unleash success with SEO, SMM, and content mastery."</p>
-               <p className=' font-medium w-full text-center rounded-lg mt-20 text-2xl'><Link className='bg-[#204e77] hover:text-white hover:bg-[#01335E] uppercase transition-all px-4 py-2 mr-10 rounded-xl' to="Contact">Get started</Link></p>
+               <p className=' font-medium w-full text-center rounded-lg mt-20 text-2xl'><Link className='bg-[#204e77] hover:text-white hover:bg-[#01335E] text-zinc-200 uppercase transition-all px-4 py-2 mr-10 rounded-xl' to="Contact">Get started</Link></p>
           </div>
           <div className=' relative'>
                <img className='sm:h-screen heroimage object-cover' src="https://www.pracharexpert.com/assets/images/image/homepage.png"/>
@@ -88,7 +88,7 @@ function Hero() {
           </div>
           <div className='sm:w-1/3 max-h-[80vh] p-4'>
                <h1 className='text-3xl font-semibold'>Best Platform for Small Businesses</h1>
-               <p className='mt-5 text-[0.93rem] line-clamp-[8]'>Gonukkad is an initiative that supports business owners with creating, growing and maintaining their online presence. We manage your marketing campaigns end-to-end to provide both online and offline engagement with your clients, both existing and potential, leading to increased sales. Come and join the Gonukkad family where many merchants have already grown their conversions 1.5 times using our expertise and tools!
+               <p className='mt-5 text-[0.93rem] line-clamp-[8]'>BIZ GROWTH is an initiative that supports business owners with creating, growing and maintaining their online presence. We manage your marketing campaigns end-to-end to provide both online and offline engagement with your clients, both existing and potential, leading to increased sales. Come and join the BIZ GROWTH family where many merchants have already grown their conversions 1.5 times using our expertise and tools!
                </p>
                <Link className='underline underline-offset-2 ml-2' to="About"> Now more</Link>
                
